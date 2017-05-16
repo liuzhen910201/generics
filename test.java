@@ -1,13 +1,13 @@
 public class test{
 	public static void main(String[] args){
 		
-		Integer n=2;
-		Double m=1.0;
+		Integer n=2;//基本类型不能当参数
+		Double m=1.0;//基本类型不能当参数
 		double total=addition(m,n);
 		System.out.println(total);
 	}
 
-	public static <T1 extends Number,T2 extends Number> double addition(T1 a,T2 b){
+	public static <T1 extends Number,T2 extends Number> double addition(T1 a,T2 b){//Integer Double作为参数 传递给了T1 T2
 		double total=a.intValue()+b.doubleValue();
 		return total;
 	}
