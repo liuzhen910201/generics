@@ -2,6 +2,7 @@
 泛型 即参数化类型<br>
 通过泛型 可以将list中的元素限制在某一类型<br>
 例如 list< String > list中的元素必须是字符串型<br>
+但是不能用于基本类型 list< int >错误 需要写成 list< Integer > 基本类型对应包转类的形式<br>
 泛型类：class className< T >{...}<br>
 T是自定义的类型参数 用于传递参数<br>
 泛型方法：放在修饰符之后 返回类型前<br>
