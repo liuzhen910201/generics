@@ -1,3 +1,3 @@
 # generics
 通过泛型 可以将list中的元素限制在某一类型<br>
-例如 list<String>
+例如 list< String > list中的元素必须是字符串型
